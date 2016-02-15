@@ -78,15 +78,17 @@ body {
 .top_menu ul li a:hover{
     background-color: #4eabda;
 /*    background-image: url(../img/line_vertical.png);    */
+    
     color: #ffffff;
     text-decoration: none;
 }
 
 .top_menu ul .flag a {
-    color: #ffffff;
     background-image: url(../img/line_vertical.png);
     background-repeat: no-repeat;
     background-position: left center;
+    
+    color: #ffffff;
 }
 
 
@@ -109,8 +111,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-    
     width: 560px;
     height: 615px;
     
@@ -139,20 +139,23 @@ body {
 
 .registration_form a{
     display: block;
+    width: 275px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 28px;
-    
-    text-align: center;
 }
 
 .registration_form .fancy {
+    margin-bottom: 28px;
+    
     line-height: 14px;
     text-align: center;
-    margin-bottom: 28px;
 }
 
 .registration_form .fancy span {
     display: inline-block;
     position: relative;  
+    
     font-size: 14px;    
     color: #999999;
 }
@@ -172,11 +175,11 @@ body {
     right: 100%;
     margin-right: 7px;
 }
+
 .registration_form .fancy span:after {
     left: 100%;
     margin-left: 7px;
 }
-
 
 .registration_form .form_input{
     display: block;
@@ -214,7 +217,6 @@ body {
 .registration_form label{
     display: block;
     width: 275px;
-    
     margin-left: auto;
     margin-right: auto;
     
@@ -228,7 +230,6 @@ body {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 15px;
-    
     width: 150px;
     height: 40px;
     
